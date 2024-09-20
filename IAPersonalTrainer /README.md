@@ -41,24 +41,24 @@ Após a instalação se pode interagir com a LLM pelo terminal. Para sair use
 
 Criando um ambiente virtual com o python3
 
-```python
+```console
 python -m venv env-langflow
 ```
 
 Ativando o ambiente virtual
 
-```python
+```console
 source env-langflow/bin/activate
 ```
 
 Instalando o langflow
 
-```python
+```console
 python -m pip install langflow -U
 ```
 Rodando o langflow
 
-```python
+```console
 python -m langflow run
 ```
 
